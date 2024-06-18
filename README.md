@@ -44,7 +44,7 @@ Answer the following questions based on your understanding of the installation a
 - Submit your completed assignment by 1st July 
 
 
-## ASSIGNMENT RESPONSE:-
+## ASSIGNMENT RESPONSE:
 
 # Setup Documentation for Visual Studio Code (VS Code)
 

@@ -43,3 +43,147 @@ Answer the following questions based on your understanding of the installation a
 - Cite any references or sources you use in your answers.
 - Submit your completed assignment by 1st July 
 
+
+## ASSIGNMENT RESPONSE:-
+
+# Setup Documentation for Visual Studio Code (VS Code)
+
+## Installation of Visual Studio Code
+
+### Step 1: Download Visual Studio Code
+1. Visit the official VS Code website: [Visual Studio Code Download](https://code.visualstudio.com/Download).
+2. Click on the download button for Windows.
+
+### Step 2: Install Visual Studio Code
+1. Locate the downloaded installer file (`VSCodeSetup-x64-{version}.exe`).
+2. Double-click the installer to begin the installation process.
+3. Follow the installation wizard instructions:
+   - Accept the license agreement.
+   - Choose the destination folder.
+   - Select additional tasks (create desktop icon, add to PATH).
+   - Click "Install" to start the installation.
+4. Once installation completes, click "Finish" to exit the wizard.
+
+## Prerequisites
+- Ensure your Windows system meets the minimum requirements specified by Microsoft for running Visual Studio Code.
+## First-time Setup
+
+### Initial Configurations for Optimal Coding Environment
+
+1. **User Settings:**
+   - Open Visual Studio Code.
+   - Go to `File > Preferences > Settings` (or press `Ctrl + ,`).
+   - Customize settings such as:
+     - Theme (`workbench.colorTheme`)
+     - Font size (`editor.fontSize`)
+     - Keybindings (`keybindings.json`)
+
+2. **Extensions:**
+   - Go to Extensions view (`Ctrl + Shift + X`).
+   - Install essential extensions like:
+     - Python (for Python development)
+     - Live Server (for web development)
+     - GitLens (for enhanced Git integration)
+
+## User Interface Overview
+
+### Main Components of VS Code User Interface
+
+1. **Activity Bar:**
+   - Provides quick access to different views like Explorer, Search, Source Control, and Extensions.
+
+2. **Side Bar:**
+   - Contains views and panels such as Explorer (file explorer), Search (find and replace), Git (source control), and Extensions.
+
+3. **Editor Group:**
+   - Displays open files as tabs and supports splitting into multiple editor groups.
+
+4. **Status Bar:**
+   - Displays information about the current project, Git branch, and coding language. It also includes a terminal and settings button.
+
+## Command Palette
+
+### Functionality and Access
+
+- **Access:** Press `Ctrl + Shift + P` (Windows/Linux) or `Cmd + Shift + P` (Mac).
+- **Examples of Common Tasks:**
+  - Open Folder (`> Open Folder`)
+  - Install Extensions (`> Extensions: Install Extensions`)
+  - Toggle Integrated Terminal (`> Toggle Integrated Terminal`)
+
+## Extensions in VS Code
+
+### Role and Management
+
+- **Role:** Extend VS Code functionality with additional features (e.g., language support, debugging).
+- **Find and Install Extensions:**
+  - Go to Extensions view (`Ctrl + Shift + X`).
+  - Search for extensions and click Install.
+- **Examples of Essential Extensions for Web Development:**
+  - Live Server: Launches a local server with live reload capability.
+  - ESLint: JavaScript linter for code quality.
+  - HTML CSS Support: Provides IntelliSense for CSS class names in HTML.
+
+## Integrated Terminal
+
+### Opening and Using
+
+- **Open Terminal:**
+  - Press `` ` `` (backtick) or go to `View > Terminal`.
+- **Advantages:**
+  - Run commands (e.g., Git, npm) without leaving VS Code.
+  - Contextual to the project directory.
+
+## File and Folder Management
+
+### Creating, Opening, and Managing
+
+- **Create File/Folder:**
+  - Use Explorer view or right-click in the file tree.
+- **Open File/Folder:**
+  - Double-click on a file in Explorer or use `File > Open Folder`.
+- **Navigate Efficiently:**
+  - Use `Ctrl + Tab` to switch between open files.
+  - Use `Ctrl + P` to quickly open files by name.
+## Settings and Preferences
+
+### Finding and Customizing
+
+- **Find Settings:**
+  - Go to `File > Preferences > Settings` or press `Ctrl + ,`.
+- **Customize Settings:**
+  - Change Theme (`workbench.colorTheme`)
+  - Adjust Font Size (`editor.fontSize`)
+  - Modify Keybindings (`keybindings.json`)
+
+## Debugging in VS Code
+
+### Setting Up and Starting Debugging
+
+1. **Setup:**
+   - Install necessary debug extensions (e.g., Debugger for Python).
+   - Add breakpoints (`F9`) in code where needed.
+
+2. **Start Debugging:**
+   - Open a file, press `F5`, or go to `Debug > Start Debugging`.
+   - Use `F10` (next line) and `F11` (step into) to navigate through code.
+   - View variables, call stack, and debug console.
+
+## Using Source Control
+
+### Integrating Git
+
+1. **Initialize Repository:**
+   - Open a folder in VS Code (`File > Open Folder`).
+   - Open the Source Control view (`Ctrl + Shift + G`).
+   - Initialize a Git repository by clicking `Initialize Repository`.
+
+2. **Make Commits and Push Changes:**
+   - Stage changes by clicking `+` next to files in Source Control.
+   - Enter a commit message and press `Ctrl + Enter` to commit.
+   - Push changes to GitHub: Click `...` next to `Push` in Source Control view.
+
+## Conclusion
+
+This setup documentation provides a comprehensive guide to setting up Visual Studio Code for a productive coding environment on Windows. Ensure to follow these steps to optimize your coding experience with VS Code. If you encounter any issues or need further assistance, refer to the official Visual Studio Code documentation.
+
